@@ -1,0 +1,10 @@
+{
+    "name": "xmpp-stub-server"
+    , "version": "0.0.1"
+    , "author": "Satyam Shekhar"
+    , "dependencies": {
+        "log4js": "= 0.5.2"
+        , "ltx": "= 0.2.3"
+        , "node-expat": "= 1.6.1"
+    }
+}

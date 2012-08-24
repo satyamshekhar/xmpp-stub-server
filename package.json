@@ -4,7 +4,7 @@
     , "author": "Satyam Shekhar"
     , "dependencies": {
         "log4js": "= 0.5.2"
-        , "ltx": "= 0.2.3"
+        , "ltx": "= 0.2.2"
         , "node-expat": "= 1.6.1"
     }
 }

@@ -31,3 +31,5 @@ var createSession = function (socket) {
 
 server.on("connection", createSession);
 server.listen(config.port);
+
+log.info("started xmpp stub server on port: %s", config.port);

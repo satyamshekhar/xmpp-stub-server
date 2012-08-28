@@ -38,7 +38,7 @@ Roster.prototype.consume = function (stanza) {
             this._rosterSize = Math.floor(stanza.attrs.roster);
         }
         sendRoster = true;
-    } else if (stanza.is("roster")){
+    } else if (stanza.is("iq") && stanza.getChild("query", "jabber:iq:roster")){
         sendRoster = true;
     }
     if (sendRoster) {

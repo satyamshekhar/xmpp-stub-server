@@ -41,7 +41,7 @@ Message.prototype._sendLoad = function (stanza) {
 };
 
 Message.prototype.consume = function (stanza) {
-    if (stanza.is("session")) {
+    if (stanza.is("session") || stanza.is("presence")) {
         if (stanza.attrs.load) {
             this._load = Math.floor(stanza.attrs.load);
         }
